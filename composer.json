@@ -1,0 +1,21 @@
+{
+  "name": "vivaweb4oss/changelog-formatter",
+  "description": "PHP formatter for CHANGELOG file compatible with keepachangelog.com",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vivaweb Dev Team",
+      "email": "dev@vivaweb.net",
+      "homepage": "https://www.vivaweb.net"
+    }
+  ],
+  "require": {
+    "php": ">= 7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChangeLog\\": "src/"
+    }
+  }
+}
