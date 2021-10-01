@@ -1,5 +1,5 @@
 {
-  "name": "vivaweb4oss/changelog-formatter",
+  "name": "vivaweb-code/changelog-formatter",
   "description": "PHP formatter for CHANGELOG file compatible with keepachangelog.com",
   "minimum-stability": "stable",
   "license": "MIT",
