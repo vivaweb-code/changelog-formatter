@@ -28,7 +28,7 @@ class Formatter
                 }
                 $version['number'] = $cortado[1];
 
-                preg_match('/[0-9]{4}-[0-1][0-9]-[0-3][0-9]/', $line, $cortado);
+                preg_match('/[0-9]{4}-[0-1][0-9]-[0-3][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]/', $line, $cortado);
                 $date = $cortado[0];
                 $version['date'] = new \DateTime($date);
 
